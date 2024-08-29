@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "no tip",
+    "version": "1.0",
+    "description": "click url to see, no tip",
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
